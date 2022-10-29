@@ -5,4 +5,4 @@ def home(request):
     return render(request, 'autobiography/home.html')
 
 def resume(request):
-    return HttpResponse('<h1>Resume</h1>')
+    return render(request, 'autobiography/resume.html')
